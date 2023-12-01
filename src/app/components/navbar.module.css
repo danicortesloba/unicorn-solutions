@@ -1,5 +1,7 @@
 .OuterBox {
   margin-left: 10px;
+  display: flex;
+  flex-direction: column;
 }
 .Menu {
     display: flex;
@@ -32,14 +34,14 @@
 
     .icon {
       visibility: visible;
-      text-align: right;
+      text-align: left;
       height: 30px;
       color: #53C5D2;
       width: 30px;
   }
 
     .visible {
-      text-align: right;
+      text-align: left;
       visibility: visible !important;
       height: 30px;
       color: #53C5D2;
@@ -50,7 +52,6 @@
     .OuterBox {
       width: 40px;
       margin-left: 0px;
-      margin-right: 50px;
     }
 
       
