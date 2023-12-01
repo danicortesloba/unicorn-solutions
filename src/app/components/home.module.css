@@ -1,7 +1,33 @@
 .Box {
+    height: 60vw;
     width: 100vw;
-    height: 100px;
-    border-style: solid;
-    border-color: black;
-    border-width: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-image: url("../../../public/images/programming.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+
 }
+
+.Turquoise{
+    align-content: center;
+    margin-top:3px;
+    margin-bottom: 3px;
+    margin-left: 10px;
+    height: 33vw;
+    width: 60vw;
+    background-color: #53C5D2;
+    border-radius: 50%;
+    opacity: 50%;
+}
+
+.Textbox {
+    margin-top: 8vw;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+    font-size: large;
+    text-align: center;
+}
+

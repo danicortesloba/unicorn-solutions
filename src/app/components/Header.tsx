@@ -2,7 +2,7 @@
 
 import styles from "./header.module.css"
 import Image from 'next/image'
-import headerImage from "../../../public/images/logo.png"
+import headerImage from "../../../public/images/logo.svg"
 import NavBar from "./NavBar"
 import navButtons from "../config/buttons"
 
