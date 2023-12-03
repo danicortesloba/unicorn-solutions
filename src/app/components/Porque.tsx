@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Porque = () => {
     return (
         <div className={styles.Outer}>
-            <h1>¿Por qué elegirnos?</h1>
+            <h2>¿Por qué elegirnos?</h2>
             <div className={styles.Box}>
             <div className={styles.Column}>
                 <ul>
