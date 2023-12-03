@@ -7,7 +7,7 @@ const Home = () => {
         
         <div className={styles.Turquoise}>
           <div className={styles.Textbox}>
-            <h1>Unicorn Solutions: <br></br>soluciones digitales creativas<br></br> para toda tu empresa</h1>
+            <h1>Unicorn Solutions: <br></br>soluciones digitales creativas<br></br> para toda empresa</h1>
           </div>
         </div>
         <div></div>
