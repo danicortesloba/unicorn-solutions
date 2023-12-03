@@ -1,6 +1,7 @@
 .Outer {
     text-align: center;
     color: #53C5D2;
+    margin-bottom: 30px;
 }
 
 .Box {
@@ -17,6 +18,10 @@
     width: 30vw;
     text-align: left;
     color: #53C5D2;
+}
+
+.Icon {
+    color: #F089B6;
 }
 
 @media screen and (max-width: 600px) {
