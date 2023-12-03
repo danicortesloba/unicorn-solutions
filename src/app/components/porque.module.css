@@ -1,3 +1,8 @@
+.Outer {
+    text-align: center;
+    color: #53C5D2;
+}
+
 .Box {
     width: 100vw;
     display: flex;
@@ -11,4 +16,16 @@
     width: 30vw;
     text-align: left;
     color: #53C5D2;
+}
+
+@media screen and (max-width: 600px) {
+    .Box {
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+    }
+
+    .Column {
+        width: 100vw;
+    }
 }

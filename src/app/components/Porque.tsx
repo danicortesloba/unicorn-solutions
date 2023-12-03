@@ -3,7 +3,9 @@ import { faStar} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Porque = () => {
     return (
-        <div className={styles.Box}>
+        <div className={styles.Outer}>
+            <h1>¿Por qué elegirnos?</h1>
+            <div className={styles.Box}>
             <div className={styles.Column}>
                 <ul>
                     <li><FontAwesomeIcon icon={faStar}/> Amplia experiencia</li>
@@ -19,6 +21,8 @@ const Porque = () => {
                 </ul>
             </div>
         </div>
+        </div>
+        
     )
 
 }
