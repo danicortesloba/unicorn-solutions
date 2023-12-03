@@ -7,6 +7,11 @@ h1{
   font-weight: 600;
 }
 
+h3{
+  font-size: 25px;
+}
+
+
 @media screen and (max-width: 600px) {
   h1{
     font-size: 15px;
@@ -19,7 +24,7 @@ h1{
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,7 +32,7 @@ h1{
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
-    overflow: hidden;
+    overflow-x: hidden;
   }
 }
 

@@ -1,5 +1,5 @@
 .Box {
-    height: 60vw;
+    margin-bottom: 30px;
     width: 100vw;
     display: flex;
     flex-direction: row;

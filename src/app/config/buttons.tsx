@@ -3,23 +3,23 @@ import React from "react";
 const navButtons = [
   {
     label: "Home",
-    path: "/",
+    path: "#home",
   },
   {
     label: "Servicios",
-    path: "/servicios",
+    path: "#servicios",
   },
   {
     label: "Experiencia",
-    path: "/experiencia",
+    path: "#experiencia",
   },
   {
     label: "¿Por qué elegirnos?",
-    path: "/porque",
+    path: "#porque",
   },
   {
     label: "Contacto",
-    path: "/contacto",
+    path: "#contacto",
   
   }
 ];

@@ -1,0 +1,29 @@
+.Box {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+    text-align: center;
+}
+
+.Service {
+    padding: 5px 15px 5px 5px;
+    color: #53C5D2;
+    align-content: top;
+    justify-content: top;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 14pt;
+    margin: 10px  10px 10px 10px;
+    width: 33vw;
+}
+
+@media screen and (max-width: 600px) {
+    .Box {
+        flex-direction: column;
+    }
+    .Service {
+        width: 100vw;
+    }
+}
