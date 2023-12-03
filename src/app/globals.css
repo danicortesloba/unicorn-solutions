@@ -11,6 +11,9 @@ h3{
   font-size: 25px;
 }
 
+li{
+  font-size: 25px;
+}
 
 @media screen and (max-width: 600px) {
   h1{
