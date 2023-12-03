@@ -15,11 +15,13 @@
     margin-top:3px;
     margin-bottom: 3px;
     margin-left: 10px;
-    height: 33vw;
+    height: 32vw;
     width: 60vw;
-    background-color: #53C5D2;
     border-radius: 50%;
-    opacity: 50%;
+    background-color: #53C5D2;
+    opacity: 70%;
+    color: white;
+   
 }
 
 .Textbox {
@@ -29,5 +31,6 @@
     justify-items: center;
     font-size: large;
     text-align: center;
+    opacity: 100%;
 }
 
