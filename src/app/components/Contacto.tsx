@@ -3,7 +3,7 @@ const Contacto = () => {
     return (
         <div className={styles.Box}>
             <p>Email: unicorn@unicornsolutions.cl</p>
-            <p>Teléfonos: 	+56229736962 | +56979298644 </p>
+            <p>Teléfonos: +56229736962 | +56979298644 </p>
             <p>Dirección: Antonio Bellet 193 Of. 302 - Providencia, RM, Chile
 </p>
         </div>
