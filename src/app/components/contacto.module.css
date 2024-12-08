@@ -4,3 +4,9 @@
     text-align: center;
     padding: 2vw 5vw 2vw 5vw;
 }
+
+@media screen and (max-width: 600px) {
+    .Box {
+        padding: 6vw 6vw 6vw 6vw;
+    }
+}

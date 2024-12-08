@@ -11,13 +11,8 @@
 }
 
 .Turquoise{
-    align-content: center;
-    margin-top:3px;
-    margin-bottom: 3px;
-    margin-left: 10px;
     height: 32vw;
     width: 60vw;
-    border-radius: 50%;
     background-color: #53C5D2;
     opacity: 70%;
     color: white;
@@ -34,3 +29,8 @@
     opacity: 100%;
 }
 
+@media screen and (max-width: 600px) {
+    .Box {
+        margin-top: 45px;
+    }
+}
